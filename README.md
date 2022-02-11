@@ -1,4 +1,4 @@
-# redisearch-slash-bug
+# Redisearch slash bug
 
 This codebase reproduces a bug in RediSearch, when searching on a tag with a slash it won't return any results.
 
