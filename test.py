@@ -35,7 +35,7 @@ working.save()
 Migrator().run()
 not_found = Page.find(Page.url == "www.youtube.com/watch?v=dQw4w9WgXcQ").all()
 found = Page.find(Page.url == "www.youtube.com").all()
-# When setting a breakpoint in redis_om/model/model.py thios translates to
+# When setting a breakpoint in redis_om/model/model.py this translates to
 # ft.search :__main__.Page:index @url:{www\\.youtube\\.com/watch?v\\=dQw4w9WgXcQ}
 # ft.search :__main__.Page:index @url:{www\\.youtube\\.com}
 
